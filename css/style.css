@@ -136,3 +136,23 @@ body{
   width: 120px;
   margin-top: 5%;
 }
+
+/* navbar */
+
+ul li {
+    display: flex;
+    margin-left: 50px;
+ }
+
+ .nav-link {
+     text-decoration: none;
+     color: white !important;
+ }
+
+#boton {
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    transform: translateY(2px);
+}
